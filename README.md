@@ -6,7 +6,7 @@
 - Use the `useSelector()` and `useDispatch()` hooks provided by React-Redux to
   access and update the store.
 
-## Introduction
+### Introduction
 
 In the previous section, we have been building using a **createStore()** function
 that we wrote, and passing a reducer to it. We have been using the **dispatch**
@@ -247,7 +247,7 @@ state directly from the store, we know that we are dispatching actions. We know
 this because each time we click a button, we call `store.dispatch({ type: 'count/increment' })` and somehow this is hitting our reducer. So things are
 happening.
 
-#### Redux DevTools
+### Redux DevTools
 
 There is this amazing piece of software that allows us to nicely view the state
 of our store and each action that is dispatched. The software does a lot more
